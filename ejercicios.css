@@ -1,0 +1,112 @@
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #D6FF7E;
+    width: 50%;
+    padding: 1% 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+th, td{
+    border: 1px solid black;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    background-color: turquoise;
+    width: 45%;
+    padding: 1% 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+body{
+    text-align: center;
+}
+div{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3E4238;
+    width: 45%;
+    padding: 1% 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+div#submarino{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3E4238;
+    width: 38%;
+    padding: 1% 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/*form{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #3E4238;
+    width: 45%;
+    padding: 1% 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}*/
+h3{
+    color: black;
+    font-size: 20px;
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    margin-bottom: 5px;
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3% 5% 3%;
+    background-color: turquoise;
+}
+button#next{
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 25px;
+    padding: 1.5% 2.5% 1.5%;
+    background-color: coral;
+}
+select{
+    margin-bottom: 5px;
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3% 5% 3%;
+    background-color: rgb(64, 224, 208);
+}
+input{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 5px; 
+    background-color: #D6FF7E;
+    border: 2px solid #D6FF7E;
+    color: black;
+    margin-top: 1%;
+    width: 84%;
+    padding: 3% 8% 3%;
+    border-radius: 5px;
+}
+input#numero5, input#numero6{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 5px; 
+    background-color: #D6FF7E;
+    border: 2px solid #D6FF7E;
+    color: black;
+    margin-top: 1%;
+    width: 14%;
+    padding: 3% 8% 3%;
+    border-radius: 35px;
+}
