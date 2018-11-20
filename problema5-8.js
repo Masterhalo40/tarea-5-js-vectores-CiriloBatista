@@ -48,7 +48,6 @@ function problema6(){
         }
         cell.innerHTML = asistentes[i];
     }
-    console.log(asistentes);
     row = result.insertRow(-1);
     cell = row.insertCell(0);
     cell.innerHTML = 'Se encontraron '+suma+' resultados';
@@ -63,10 +62,7 @@ function problema7(){
         if(asientos[i] === 'DISPONIBLE!' || asientos[i] === undefined){
             asientos[i] = 'DISPONIBLE!';
         }
-    }
-    /*if(asistentes[i] === number){
-        alert('Este asiento ya esta ocupado!');
-    }*/    
+    }  
     for(var i = 1; i < asientos.length; i++){
         
         if(number === i && asientos[i] !== 'DISPONIBLE!'){
@@ -80,7 +76,6 @@ function problema7(){
         cell1.innerHTML = i;
         cell2.innerHTML = asientos[i];
     }
-    console.log(asientos);
 }
 function problema8(){
     var ticket = Number(boleto.value);
@@ -93,7 +88,6 @@ function problema8(){
         }
     }
     result.innerHTML = '';
-    var disp = false;
     for(var i = 1; i < sorteo.length; i++){
         row = result.insertRow(-1);
         cell1 = row.insertCell(0);
@@ -106,7 +100,6 @@ function problema8(){
         }
         cell2.innerHTML = sorteo[i];
     }
-    console.log(sorteo);
 }
 function problema81(){
     var ticket = Number(boleto.value);
